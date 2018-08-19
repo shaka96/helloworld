@@ -83,8 +83,12 @@ helloworld
 └── static
 ```
 ---
-(1.vue基于webpack 模板的目录结构以及目录作用的解析)[https://blog.csdn.net/qq_34645412/article/details/78818245]
-(2.入门 Webpack，看这篇就够了)[https://segmentfault.com/a/1190000006178770]
+参考文档：
+
+[1.vue基于webpack 模板的目录结构以及目录作用的解析](https://blog.csdn.net/qq_34645412/article/details/78818245)
+
+[2.入门 Webpack，看这篇就够了](https://segmentfault.com/a/1190000006178770)
+
 ```
 1. build
 这个是我们最终发布的时候会把代码发布在这里
