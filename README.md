@@ -50,9 +50,10 @@ Documentation can be found at https://vuejs-templates.github.io/webpack
 ```
 ---
 finished git init and vue webpack init @20180819
-# then let's go to start
+# Then,let's go to start!
 
 目录树结构：
+```
 helloworld
 ├── README.md
 ├── build
@@ -80,7 +81,7 @@ helloworld
 │   │   └── HelloWorld.vue
 │   └── main.js
 └── static
-
+```
 ---
 (1.vue基于webpack 模板的目录结构以及目录作用的解析)[https://blog.csdn.net/qq_34645412/article/details/78818245]
 (2.入门 Webpack，看这篇就够了)[https://segmentfault.com/a/1190000006178770]
