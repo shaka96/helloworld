@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <!-- <h2>Essential Links</h2>
     <ul>
       <li>
         <a
@@ -44,7 +44,7 @@
           Docs for This Template
         </a>
       </li>
-    </ul>
+    </ul> -->
     <h2>Ecosystem</h2>
     <ul>
       <li>

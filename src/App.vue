@@ -3,18 +3,23 @@
     <img src="./assets/logo.png">
     <HelloWorld/>
     <hi></hi>
+    <vuex></vuex>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
 import Hi from './components/Hi'
+// import Vuex from './components/vuexCmp/Vuex'
+// import store from './vuex/store'
 
 export default {
   name: 'App',
+  store,
   components: {
     HelloWorld,
-    Hi
+    Hi,
+    Vuex
   }
 }
 </script>
