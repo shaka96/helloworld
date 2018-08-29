@@ -1,16 +1,25 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <!-- <div class="hello" id="Hi">
+    
+    
+  </div> -->
+  <div id="Hi">
+    <i-echart class="echarts-container"></i-echart>
+    <!-- <h1>{{ msg }}</h1> -->
   </div>
 </template>
 
 <script>
+import iEchart from './charts/echartDemo'
 export default {
   name: 'hi',
   data () {
     return {
-      msg: 'This is Hi'
+      // msg: 'This is Hi'
     }
+  },
+  components:{
+    iEchart
   }
 }
 </script>
@@ -31,4 +40,12 @@ li {
 a {
   color: #42b983;
 }
+
+  .echarts-container{
+      width: 100%;
+      height: 20rem;
+      /* width: 100px;
+      height: 200px; */
+      border: solid 1px greenyellow;
+  }
 </style>

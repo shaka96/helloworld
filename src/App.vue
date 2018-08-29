@@ -10,8 +10,9 @@
 <script>
 import HelloWorld from './components/HelloWorld'
 import Hi from './components/Hi'
-// import Vuex from './components/vuexCmp/Vuex'
-// import store from './vuex/store'
+import Vuex from './vuex/components/Appx.vue'
+import store from './vuex/store'
+
 
 export default {
   name: 'App',

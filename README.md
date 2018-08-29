@@ -161,8 +161,8 @@ helloworld
     就比如说你安装了  node1.0版本，你队友安装的时候自动会安装1.0版本的，不会再装一个2.0版本的最后提交代码产生冲突
 ```
 ---
-
 ### Update Log:
 1. edit makedown file.
 2. Add a component: Hi.vue
-    
+3. Add vuex files:shopping-chart
+4. Add echarts demo
