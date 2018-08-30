@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import { ADD_ITEM, DELETE_ITEM } from './mutations-type.js'
-import {getItems as getters} from './getters'
+import { getItems as getters } from './getters.js'
 // import { addItem , deleteItem } from './actions'
 Vue.use(Vuex)
 

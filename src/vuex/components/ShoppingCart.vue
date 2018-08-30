@@ -16,8 +16,8 @@
 <script>
 import { mapGetters, mapState } from 'vuex'
 import { currency as Currency } from '../currency.js'
-// import Vue from 'vue'
-// Vue.filter('currency',Currency)
+import Vue from 'vue'
+Vue.filter('currency',Currency)
 export default {
     computed: {
         ...mapState({

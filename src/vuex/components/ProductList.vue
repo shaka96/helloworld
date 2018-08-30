@@ -14,8 +14,8 @@
  <script>
  import { mapState, mapActions } from 'vuex'
  import { currency } from '../currency.js'
-//  import Vue from 'vue'
-//  Vue.filter('currency', currency)
+ import Vue from 'vue'
+ Vue.filter('currency', currency)
  export default {
      computed: mapState({
          products: state => state.products.all

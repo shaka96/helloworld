@@ -86,8 +86,12 @@ helloworld
 ### 参考文档：
 
 [1.vue基于webpack 模板的目录结构以及目录作用的解析](https://blog.csdn.net/qq_34645412/article/details/78818245)
-
 [2.入门 Webpack，看这篇就够了](https://segmentfault.com/a/1190000006178770)
+[3.自定义构建 ECharts](http://echarts.baidu.com/tutorial.html#%E8%87%AA%E5%AE%9A%E4%B9%89%E6%9E%84%E5%BB%BA%20ECharts)
+[4.做一个可复用的 echarts-vue 组件（延迟动画加载）](https://segmentfault.com/a/1190000012803831)
+[5.GitHub 中的 echarts/dist 文件夹中获取构建好的 echarts](https://github.com/apache/incubator-echarts/releases)
+[6. Bootstrap 轮播（Carousel）插件](http://www.runoob.com/bootstrap/bootstrap-carousel-plugin.html)
+[7. 使用Vue制作图片轮播组件](https://www.jb51.net/article/136847.htm)
 
 ```
 1. build
@@ -162,7 +166,8 @@ helloworld
 ```
 ---
 ### Update Log:
-1. edit makedown file.
+1. Edit makedown file.
 2. Add a component: Hi.vue
 3. Add vuex files:shopping-chart
 4. Add echarts demo
+5. Add Carousel demo
